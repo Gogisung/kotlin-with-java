@@ -15,3 +15,7 @@ fun printAgeIfPerson(obj: Any) {
     println(person.age)
   }
 }
+
+fun fail(message: String): Nothing {
+  throw IllegalArgumentException(message)
+}
